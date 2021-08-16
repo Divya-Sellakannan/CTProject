@@ -15,8 +15,10 @@ public with sharing class CTRecentChangesController {
         return CTPersonController.searchPeople(searchTerm);
     }
 
+   /*
     @AuraEnabled
     public static List<Location__c> searchLocation(String searchTerm) {
         return CTLocationController.searchLocations(searchTerm);
     }
+    */
 }
